@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.Middle {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("christmas.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 40%;
+}
+
+.day,
+.hour,
+.minute,
+.second,
+.milliseconds {
+  font-size: 3rem;
+}
+
+.background {
+  height: 10vh;
+}
